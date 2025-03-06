@@ -3,6 +3,10 @@
     display: flex;
 }
 
+.header h2 {
+    text-transform: lowercase;
+}
+
 .header a {
     font-weight: 300;
 }
@@ -11,8 +15,4 @@
     margin-right: 5px;
     font-size: 1em;
     font-weight: 700;
-}
-
-.page-title {
-    text-transform: lowercase;
 }
