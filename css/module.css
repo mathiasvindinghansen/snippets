@@ -16,3 +16,12 @@
     font-size: 1em;
     font-weight: 700;
 }
+
+.header .wp-block-list {
+    display: flex;
+    gap: 1em;
+}
+
+.header .wp-block-list li {
+    list-style: none;
+}
