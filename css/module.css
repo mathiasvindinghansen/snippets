@@ -1,0 +1,18 @@
+.header {
+    justify-content: space-between;
+    display: flex;
+}
+
+.nav.primary ul {
+    display: flex;
+    gap: 1em;
+}
+
+.nav.primary ul li {
+    list-style: none;
+}
+
+.nav.primary ul li a {
+    text-decoration: none;
+    color: black;
+}
