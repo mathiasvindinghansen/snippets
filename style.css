@@ -11,9 +11,33 @@
 }
 
 body {
+    margin: auto;
     width: 90%;
 }
 
 p, a, h1, h2, h3, h4, h5, h6 {
     font-family: var(--primary-font-family);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.header {
+    justify-content: space-between;
+    display: flex;
+}
+
+.nav-primary {
+    display: flex;
+}
+
+.nav-primary ul {
+    display: flex;
+    gap: 1em;
+}
+
+.nav-primary ul li {
+    list-style: none;
 }
