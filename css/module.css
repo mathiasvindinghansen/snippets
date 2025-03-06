@@ -3,7 +3,7 @@
     display: flex;
 }
 
-.header > span {
+.header span {
     font-size: 1.5em;
 }
 
@@ -12,6 +12,6 @@
     gap: 1em;
 }
 
-.nav.primary > li {
+.nav.primary li {
     list-style: none;
 }
