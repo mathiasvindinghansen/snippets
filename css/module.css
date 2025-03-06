@@ -16,12 +16,3 @@
 .page-title {
     text-transform: lowercase;
 }
-
-.nav.primary ul {
-    display: flex;
-    gap: 1em;
-}
-
-.nav.primary li {
-    list-style: none;
-}
