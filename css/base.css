@@ -11,6 +11,10 @@ p, a, h1, h2, h3, h4, h5, h6 {
     color: black;
 }
 
+a {
+    color: #3d7e9a;
+}
+
 header {
     justify-content: space-between;
     display: flex;
