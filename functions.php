@@ -10,4 +10,10 @@ function mvh_enqueue_styles() {
     wp_enqueue_style('mvh-theme', get_template_directory_uri() . '/css/theme.css?dev=' . time());
 }
 
+function mvh_enqueue_scripts() {
+    wp_enqueue_script('mvh-particles', get_template_directory_uri() . '/js/particles.min.js');
+    wp_enqueue_script('mvh-script', get_template_directory_uri() . '/js/script.js', ['mvh-particles']);
+}
+
 add_action('wp_enqueue_scripts', 'mvh_enqueue_styles');
+add_action('wp_enqueue_scripts', 'mvh_enqueue_scripts');
