@@ -1,8 +1,3 @@
-.header {
-    justify-content: space-between;
-    display: flex;
-}
-
 .header ul {
     list-style: none;
     display: flex;
@@ -14,8 +9,8 @@
 }
 
 .hero {
-    margin-bottom: 10em;
-    margin-top: 10em;
+    margin: auto;
+    width: 80%;
 }
 
 .hero-title {
