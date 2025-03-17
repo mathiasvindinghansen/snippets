@@ -12,3 +12,8 @@
 .wp-block-site-title a {
     text-transform: lowercase;
 }
+
+.hero {
+    margin: auto;
+    width: 80%;
+}
