@@ -2,6 +2,14 @@
     text-transform: lowercase;
 }
 
+.wp-block-post-title {
+    font-size: 2.3em;
+}
+
+.wp-block-post-excerpt {
+    font-size: 1.1em;
+}
+
 .hero {
     padding-bottom: 50vh;
     position: relative;
