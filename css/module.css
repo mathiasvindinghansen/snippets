@@ -1,0 +1,4 @@
+.wp-block-site-title {
+    justify-content: space-between;
+    display: flex;
+}
