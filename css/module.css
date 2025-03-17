@@ -14,7 +14,8 @@
 }
 
 .hero-inner {
-    
+    margin: auto;
+    width: 70%;
 }
 
 .hero-inner h1 {
@@ -25,4 +26,8 @@
 
 .hero-inner h2 {
     font-weight: 400;
+}
+
+.particles-js-canvas-el {
+    position: absolute;
 }
