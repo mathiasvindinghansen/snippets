@@ -16,8 +16,10 @@
 }
 
 .hero-inner {
-    margin: auto;
+    position: absolute;
     width: 70%;
+    left: 10%;
+    top: 50%;
 }
 
 .hero-inner h1 {
