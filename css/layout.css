@@ -1,3 +1,17 @@
 .particles-js-canvas-el {
     position: absolute;
 }
+
+.content-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 'big big small';
+    display: grid;
+}
+
+.articles {
+    grid-area: big;
+}
+
+.categories {
+    grid-area: small;
+}
