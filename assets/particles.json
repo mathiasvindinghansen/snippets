@@ -9,10 +9,9 @@
         },
 
         "shape": {
-          "type": "triangle",
-
           "stroke": {
-            "color": "#9f9f9f"
+            "color": "#9f9f9f",
+            "width": 1
           }
         }
       }
