@@ -8,6 +8,10 @@
             "color": "#9f9f9f",
             "width": 1
           }
+        },
+
+        "size": {
+          "value": 5
         }
       }
   }
