@@ -30,10 +30,6 @@
     font-weight: 400;
 }
 
-.categories > a {
+.categories {
     text-decoration: underline;
-}
-
-.categories > a:visited {
-    text-decoration: none;
 }
