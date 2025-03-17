@@ -1,9 +1,3 @@
-.header ul {
-    list-style: none;
-    display: flex;
-    gap: 10px;
-}
-
 .wp-block-site-title a {
     text-transform: lowercase;
 }
@@ -30,9 +24,4 @@
 
 .hero-inner h2 {
     font-weight: 400;
-}
-
-.main {
-    margin: auto;
-    width: 80%;
 }
