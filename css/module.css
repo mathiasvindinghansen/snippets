@@ -29,3 +29,11 @@
 .hero-inner h2 {
     font-weight: 400;
 }
+
+.categories > a {
+    text-decoration: underline;
+}
+
+.categories > a:visited {
+    text-decoration: none;
+}
