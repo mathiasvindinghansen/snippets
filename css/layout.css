@@ -1,9 +1,6 @@
 .header {
     justify-content: space-between;
     display: flex;
-}
-
-.wp-block-site-title {
     margin: auto;
     width: 90%;
 }
