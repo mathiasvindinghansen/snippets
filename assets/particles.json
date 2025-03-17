@@ -7,6 +7,10 @@
       "shapes": {
         "stroke": {
           "color": "#000"
+        },
+
+        "polygon": {
+          "nb_sides": 5
         }
       },
 
