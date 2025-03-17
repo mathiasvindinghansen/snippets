@@ -17,3 +17,13 @@
     margin: auto;
     width: 80%;
 }
+
+.hero-title {
+    font-size: 5.2em;
+    font-weight: 600;
+    margin: 0;
+}
+
+.hero-title-sub {
+    font-weight: 400;
+}
