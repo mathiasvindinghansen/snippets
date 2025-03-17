@@ -10,15 +10,19 @@
 
 .hero {
     margin: 8em auto;
-    width: 70%;
+    width: 100%;
 }
 
-.hero-title {
+.hero-inner {
+    
+}
+
+.hero-inner h1 {
     font-size: 5.2em;
     font-weight: 600;
     margin: 0;
 }
 
-.hero-title-sub {
+.hero-inner h2 {
     font-weight: 400;
 }
