@@ -16,6 +16,7 @@ a {
 }
 
 h2 {
+    font-weight: 600;
     font-size: 2em;
 }
 
@@ -30,6 +31,10 @@ header ul {
     list-style: none;
     display: flex;
     gap: 10px;
+}
+
+.header > a {
+    color: black;
 }
 
 main {
