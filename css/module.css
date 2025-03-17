@@ -30,6 +30,6 @@
     font-weight: 400;
 }
 
-.categories {
+.categories a {
     text-decoration: underline;
 }
