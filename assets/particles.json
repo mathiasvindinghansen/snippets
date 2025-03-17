@@ -6,8 +6,8 @@
 
       "shape": {
         "stroke": {
-          "color": "#000",
-          "width": 1
+          "color": "#222222",
+          "width": 5
         }
       },
 
@@ -16,7 +16,7 @@
       },
 
       "size": {
-        "value": 1
+        "value": 2
       }
   }
 }
