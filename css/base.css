@@ -10,3 +10,21 @@ p, a, h1, h2, h3, h4, h5, h6 {
     font-weight: 350;
     color: black;
 }
+
+header {
+    justify-content: space-between;
+    display: flex;
+    margin: auto;
+    width: 90%;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+main {
+    margin: auto;
+    width: 80%;
+}

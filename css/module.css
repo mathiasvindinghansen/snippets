@@ -31,3 +31,8 @@
 .hero-inner h2 {
     font-weight: 400;
 }
+
+.main {
+    margin: auto;
+    width: 80%;
+}
