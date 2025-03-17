@@ -11,8 +11,8 @@ function mvh_enqueue_styles() {
 }
 
 function mvh_enqueue_scripts() {
-    wp_enqueue_script('mvh-particles', get_template_directory_uri() . '/js/particles.min.js');
-    wp_enqueue_script('mvh-script', get_template_directory_uri() . '/js/script.js', ['mvh-particles']);
+    wp_enqueue_script('mvh-particles', get_template_directory_uri() . '/js/particles.min.js?dev=' . time());
+    wp_enqueue_script('mvh-script', get_template_directory_uri() . '/js/script.js?dev=' . time(), ['mvh-particles']);
 }
 
 add_action('wp_enqueue_scripts', 'mvh_enqueue_styles');
