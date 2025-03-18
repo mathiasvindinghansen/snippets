@@ -7,7 +7,7 @@
     padding-bottom: 2em;
 }
 
-.wp-block-query-pagination-numbers {
+.wp-block-query-pagination a {
     color: black;
 }
 
