@@ -18,6 +18,14 @@
     padding: 7px 11px;
 }
 
+.wp-block-query-pagination-previous {
+    font-weight: 500;
+}
+
+.wp-block-query-pagination-next {
+    font-weight: 500;
+}
+
 .hero {
     padding-bottom: 50vh;
     position: relative;
