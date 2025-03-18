@@ -33,6 +33,14 @@ header nav {
     margin-left: auto;
 }
 
+header form {
+    margin-top: 16px 10px;
+}
+
+input [type="text"] {
+    outline: none;
+}
+
 header ul {
     list-style: none;
     display: flex;
