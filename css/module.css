@@ -58,6 +58,10 @@
     text-decoration: underline;
 }
 
-.search {
+.search-icon {
     width: 20px;
+}
+
+.search-bar {
+    outline: none;
 }
