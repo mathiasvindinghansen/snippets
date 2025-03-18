@@ -29,6 +29,10 @@ header {
     width: 90%;
 }
 
+header nav {
+    margin-left: auto;
+}
+
 header ul {
     list-style: none;
     display: flex;
