@@ -1,6 +1,7 @@
 @media screen and (max-width: 768px) {
     .content-grid {
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-areas: 'big big big';
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: 'big big big small small small';
     }
 }
