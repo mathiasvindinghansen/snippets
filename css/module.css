@@ -7,6 +7,10 @@
     padding-bottom: 2em;
 }
 
+.wp-block-query-pagination-numbers {
+    color: black;
+}
+
 .hero {
     padding-bottom: 50vh;
     position: relative;
