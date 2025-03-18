@@ -57,3 +57,7 @@
 .categories a {
     text-decoration: underline;
 }
+
+.search {
+    width: 2em;
+}
