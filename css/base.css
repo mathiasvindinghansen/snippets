@@ -2,17 +2,19 @@
 
 :root {
     --primary-font-family: 'Rubik', sans-serif;
+    --primary-color: black;
+    --secondary-color: #3d7e9a;
 }
 
 p, a, h1, h2, h3, h4, h5, h6 {
     font-family: var(--primary-font-family);
     text-decoration: none;
     font-weight: 350;
-    color: black;
+    color: var(--primary-color);
 }
 
 a {
-    color: #3d7e9a;
+    color: var(--secondary-color)
 }
 
 h2 {
@@ -34,7 +36,7 @@ header ul {
 }
 
 header a {
-    color: black;
+    color: var(--primary-color);
 }
 
 main {

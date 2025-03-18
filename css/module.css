@@ -8,7 +8,14 @@
 }
 
 .wp-block-query-pagination a {
-    color: black;
+    color: var(--primary-color);
+}
+
+.page-numbers.current {
+    background-color: var(--secondary-color);
+    border-radius: 7px;
+    color: white;
+    padding: 7px 11px;
 }
 
 .hero {
