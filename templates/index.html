@@ -1,4 +1,5 @@
 <!-- wp:template-part {"slug": "header"} /-->
+<!-- ** insert header template ** -->
 
 <div class="hero">
     <div id="particles-js"></div>
@@ -17,7 +18,8 @@
 <main class="main">
     <div class="content-grid">
         <section class="articles">
-            <!-- wp:query {"query": {"default": {"perPage": 3}}} -->
+            <!-- ** begin a query, only return 3 posts per page ** -->
+            <!-- wp:query {"query": {"perPage": 3}} -->
 
             <!-- wp:query-pagination -->
 
@@ -27,6 +29,7 @@
 
             <!-- /wp:query-pagination -->
 
+            <!-- ** this is the same as doing the_post() in php ** -->
             <!-- wp:post-template -->
     
             <!-- wp:post-title {"isLink": true} /-->
@@ -41,6 +44,8 @@
             <h2>Kategorier</h2>
 
             <ul>
+                <!-- ** make the <li> elements into list items so they can be edited in the wordpress site editor ** -->
+
                 <!-- wp:list-item -->
                 <li>
                     <a href="#">test 1</a>
@@ -58,3 +63,4 @@
 </main>
 
 <!-- wp:template-part {"slug": "footer"} /-->
+<!-- ** insert footer template ** -->
