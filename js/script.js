@@ -6,6 +6,7 @@ jQuery(function() {
     
     search_icon_button.addEventListener("click", function() {
         if (search_bar_toggleable.classList.contains("hidden")) {
+            search_bar_toggleable.classList.remove("no-border-bottom");
             search_bar_toggleable.classList.remove("hidden");
             search_bar_toggleable.focus();
         } else {
@@ -16,9 +17,7 @@ jQuery(function() {
     search_bar_toggleable.addEventListener("transitionend", function(e) {
         if (e.propertyName != "width") return;
 
-        if (search_bar_toggleable.classList.contains("no-border-bottom")) {
-            search_bar_toggleable.classList.remove("no-border-bottom");
-        } else {
+        if (!search_bar_toggleable.classList.contains("no-border-bottom")) {
             search_bar_toggleable.classList.add("no-border-bottom");
         }
     });
