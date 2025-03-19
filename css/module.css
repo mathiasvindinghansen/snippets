@@ -69,15 +69,12 @@
 .search-bar {
     border: none;
     border-bottom: 1px solid black;
-    transition: width .5s;
+    transition: width .4s;
     outline: none;
     width: 13em;
 }
 
 .search-bar.hidden {
-    width: 0;
-}
-
-.search-bar.no-border-bottom {
     border-bottom: 0;
+    width: 0;
 }
