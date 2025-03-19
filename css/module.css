@@ -70,8 +70,13 @@
     border: none;
     border-bottom: 1px solid black;
     transition: width .5s;
+    width: 13em;
 }
 
 .search-bar.hidden {
     width: 0;
+}
+
+.search-bar.hidden-no-border {
+    border-bottom: 0;
 }
