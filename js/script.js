@@ -1,6 +1,6 @@
 particlesJS.load('particles-js', '/snippets/wp-content/themes/snippets/assets/particles.json')
 
-$(function() {
+jQuery(function() {
     const search_icon_button = document.getElementById("search-icon-button");
     const search_bar_toggleable = document.getElementById("search-bar-toggleable");
     
