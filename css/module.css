@@ -70,6 +70,10 @@
     width: 20px;
 }
 
+.search-icon:hover {
+    cursor: pointer;
+}
+
 .search-bar {
     border: none;
     border-bottom: 1px solid black;
