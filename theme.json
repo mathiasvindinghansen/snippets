@@ -20,6 +20,24 @@
                             "src": ["file:./assets/Open_Sans/OpenSans-VariableFont_wdth,wght.woff2"]
                         }
                     ]
+                },
+
+                {
+                    "fontFamily": "\"Bytesized\", sans-serif",
+                    "slug": "bytesized-sans-serif-font",
+                    "name": "\"Bytesized\", sans-serif",
+
+                    "fontFace": [
+                        {
+                            "fontFamily": "\"Bytesized\"",
+                            "src": ["file:./assets/Rubik/Bytesized-Regular.woff2"]
+                        },
+
+                        {
+                            "fontFamily": "sans-serif",
+                            "src": ["file:./assets/Open_Sans/OpenSans-VariableFont_wdth,wght.woff2"]
+                        }
+                    ]
                 }
             ]
         }
