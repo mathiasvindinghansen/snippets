@@ -1,1 +1,27 @@
-{}
+{
+    "version": 2,
+
+    "settings": {
+        "typography": {
+            "fontFamilies": [
+                {
+                    "fontFamily": "'Rubik', sans-serif",
+                    "slug": "rubik-sans-serif-font",
+                    "name": "'Rubik', sans-serif",
+
+                    "fontFace": [
+                        {
+                            "fontFamily": "Rubik",
+                            "src": ["file:./assets/Rubik/Rubik-VariableFont_wght.woff2"]
+                        },
+
+                        {
+                            "fontFamily": "sans-serif",
+                            "src": ["file:./assets/Open_Sans/OpenSans-VariableFont_wdth,wght.woff2"]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
