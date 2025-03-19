@@ -11,7 +11,7 @@
 
                     "fontFace": [
                         {
-                            "fontFamily": "Rubik",
+                            "fontFamily": "'Rubik'",
                             "src": ["file:./assets/Rubik/Rubik-VariableFont_wght.woff2"]
                         },
 
@@ -29,12 +29,12 @@
 
                     "fontFace": [
                         {
-                            "fontFamily": "Bytesized",
+                            "fontFamily": "\"Bytesized\"",
                             "src": ["file:./assets/Rubik/Bytesized-Regular.woff2"]
                         },
 
                         {
-                            "fontFamily": "Rubik",
+                            "fontFamily": "'Rubik'",
                             "src": ["file:./assets/Rubik/Rubik-VariableFont_wght.woff2"]
                         },
 
