@@ -69,7 +69,7 @@
 .search-bar {
     border: none;
     border-bottom: 1px solid black;
-    transition: .5s;
+    transition: width .5s;
 }
 
 .search-bar.hidden {
