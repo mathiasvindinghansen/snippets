@@ -16,7 +16,7 @@ jQuery(function() {
 
     search_bar_toggleable.addEventListener("transitionend", function(e) {
         if (e.propertyName != "width") return;
-
+        console.log(e.pseudoElement);
         if (!search_bar_toggleable.classList.contains("no-border-bottom")) {
             search_bar_toggleable.classList.add("no-border-bottom");
         }
