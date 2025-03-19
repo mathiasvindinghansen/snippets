@@ -34,6 +34,12 @@
                         },
 
                         {
+                            "fontFamily": "Rubik",
+                            "src": ["file:./assets/Rubik/Rubik-VariableFont_wght.woff2"]
+                        },
+
+
+                        {
                             "fontFamily": "sans-serif",
                             "src": ["file:./assets/Open_Sans/OpenSans-VariableFont_wdth,wght.woff2"]
                         }
