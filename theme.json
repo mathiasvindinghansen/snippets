@@ -29,7 +29,7 @@
 
                     "fontFace": [
                         {
-                            "fontFamily": "\"Bytesized\"",
+                            "fontFamily": "Bytesized",
                             "src": ["file:./assets/Rubik/Bytesized-Regular.woff2"]
                         },
 
