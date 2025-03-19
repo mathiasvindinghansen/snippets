@@ -77,6 +77,6 @@
     width: 0;
 }
 
-.search-bar.hidden-no-border {
+.search-bar.no-border-bottom {
     border-bottom: 0;
 }
