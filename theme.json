@@ -23,9 +23,9 @@
                 },
 
                 {
-                    "fontFamily": "\"Bytesized\", 'Rubik', sans-serif",
-                    "slug": "bytesized-rubik-sans-serif-font",
-                    "name": "\"Bytesized\", 'Rubik', sans-serif",
+                    "fontFamily": "\"Bytesized\"",
+                    "slug": "bytesized-font",
+                    "name": "\"Bytesized\"",
 
                     "fontFace": [
                         {
@@ -34,23 +34,6 @@
                             "fontStyle": "normal",
                             "fontStretch": "normal",
                             "src": ["file:./assets/fonts/Bytesized-Regular.woff2"]
-                        },
-
-                        {
-                            "fontFamily": "'Rubik'",
-                            "fontWeight": "400",
-                            "fontStyle": "normal",
-                            "fontStretch": "normal",
-                            "src": ["file:./assets/fonts/Rubik-VariableFont_wght.woff2"]
-                        },
-
-
-                        {
-                            "fontFamily": "sans-serif",
-                            "fontWeight": "400",
-                            "fontStyle": "normal",
-                            "fontStretch": "normal",
-                            "src": ["file:./assets/fonts/OpenSans-VariableFont_wdth,wght.woff2"]
                         }
                     ]
                 }
