@@ -5,19 +5,14 @@
         "typography": {
             "fontFamilies": [
                 {
-                    "fontFamily": "'Rubik', sans-serif",
-                    "slug": "rubik-sans-serif-font",
-                    "name": "'Rubik', sans-serif",
+                    "fontFamily": "'Rubik'",
+                    "slug": "rubik-font",
+                    "name": "'Rubik'",
 
                     "fontFace": [
                         {
                             "fontFamily": "'Rubik'",
                             "src": ["file:./assets/fonts/Rubik-VariableFont_wght.woff2"]
-                        },
-
-                        {
-                            "fontFamily": "sans-serif",
-                            "src": ["file:./assets/fonts/OpenSans-VariableFont_wdth,wght.woff2"]
                         }
                     ]
                 },
