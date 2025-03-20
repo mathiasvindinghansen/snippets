@@ -24,8 +24,8 @@
 
                 {
                     "fontFamily": "\"Bytesized\", 'Rubik', sans-serif",
-                    "slug": "bytesized-sans-serif-font",
-                    "name": "\"Bytesized\", sans-serif",
+                    "slug": "bytesized-rubik-sans-serif-font",
+                    "name": "\"Bytesized\", 'Rubik', sans-serif",
 
                     "fontFace": [
                         {
