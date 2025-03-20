@@ -30,17 +30,26 @@
                     "fontFace": [
                         {
                             "fontFamily": "\"Bytesized\"",
+                            "fontWeight": "400",
+                            "fontStyle": "normal",
+                            "fontStretch": "normal",
                             "src": ["file:./assets/fonts/Bytesized-Regular.woff2"]
                         },
 
                         {
                             "fontFamily": "'Rubik'",
+                            "fontWeight": "400",
+                            "fontStyle": "normal",
+                            "fontStretch": "normal",
                             "src": ["file:./assets/fonts/Rubik-VariableFont_wght.woff2"]
                         },
 
 
                         {
                             "fontFamily": "sans-serif",
+                            "fontWeight": "400",
+                            "fontStyle": "normal",
+                            "fontStretch": "normal",
                             "src": ["file:./assets/fonts/OpenSans-VariableFont_wdth,wght.woff2"]
                         }
                     ]
