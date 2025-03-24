@@ -95,6 +95,10 @@
     color: black;
 }
 
+.inner-article {
+    display: flex;
+}
+
 .taxonomy-post_tag-prefix {
     display: none;
 }
