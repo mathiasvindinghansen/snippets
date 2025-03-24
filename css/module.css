@@ -101,9 +101,9 @@
 }
 
 .taxonomy-post_tag-prefix {
-    margin-right: 10px;
     display: none;
     margin: 0;
+    margin-right: 10px;
 }
 
 .taxonomy-post_tag-prefix:has(+ .taxonomy-post_tag) {
