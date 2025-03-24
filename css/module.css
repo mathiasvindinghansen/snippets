@@ -96,11 +96,14 @@
 }
 
 .inner-article {
+    margin-bottom: 1rem;
     display: flex;
 }
 
 .taxonomy-post_tag-prefix {
+    margin-right: 10px;
     display: none;
+    margin: 0;
 }
 
 .taxonomy-post_tag-prefix:has(+ .taxonomy-post_tag) {
