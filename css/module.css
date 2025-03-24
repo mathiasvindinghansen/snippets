@@ -103,7 +103,7 @@
 .taxonomy-post_tag-prefix {
     display: none;
     margin: 0;
-    margin-right: 10px;
+    margin-right: 6px;
 }
 
 .taxonomy-post_tag-prefix:has(+ .taxonomy-post_tag) {
