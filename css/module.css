@@ -94,3 +94,11 @@
 .search-icon {
     color: black;
 }
+
+.taxonomy-post_tag-prefix {
+    display: none;
+}
+
+.taxonomy-post_tag-prefix + .taxonomy-post_tag {
+    display: block
+}
