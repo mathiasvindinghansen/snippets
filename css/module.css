@@ -74,15 +74,14 @@
     cursor: pointer;
 }
 
-.search-bar {
+.wp-block-search__input {
     border: none;
     border-bottom: 1px solid black;
     transition: width .4s;
     outline: none;
-    width: 13em;
 }
 
-.search-bar.hidden {
+.wp-block-search__input.hidden {
     border-bottom: 0;
     width: 0;
 }

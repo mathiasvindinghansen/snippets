@@ -1,15 +1,15 @@
 particlesJS.load('particles-js', '/snippets/wp-content/themes/snippets/assets/particles.json')
 
 jQuery(function() {
-    const search_icon_button = document.getElementById("search-icon-button");
-    const search_bar_toggleable = document.getElementById("search-bar-toggleable");
+    const wp_block_search__button = document.getElementById("wp-block-search__button");
+    const wp_block_search__input = document.getElementById("wp-block-search__input");
     
-    search_icon_button.addEventListener("click", function() {
-        if (search_bar_toggleable.classList.contains("hidden")) {
-            search_bar_toggleable.classList.remove("hidden");
-            search_bar_toggleable.focus();
+    wp_block_search__button.addEventListener("click", function() {
+        if (wp_block_search__input.classList.contains("hidden")) {
+            wp_block_search__input.classList.remove("hidden");
+            wp_block_search__input.focus();
         } else {
-            search_bar_toggleable.classList.add("hidden");
+            wp_block_search__input.classList.add("hidden");
         }
     });
 });
