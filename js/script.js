@@ -1,8 +1,26 @@
 particlesJS.load('particles-js', '/snippets/wp-content/themes/snippets/assets/particles.json')
 
-jQuery(function() {
-    const wp_block_search__button = document.getElementById("wp-block-search__button");
-    const wp_block_search__input = document.getElementById("wp-block-search__input");
+function waitForElement(selector) {
+    return new Promise(resolve => {
+        if (document.querySelector(selector)) {
+            return resolve(document.querySelector(selector));
+        }
+
+        const observer = new MutationObserver(mutations => {
+            if (document.querySelector(selector)) {
+                observer.disconnect();
+
+                resolve(document.querySelector(selector));
+            }
+        });
+
+        observer.observe(document.body, {childList: true, subtree: true});
+    });
+}
+
+jQuery(async function() {
+    const wp_block_search__button = await waitForElement('.wp-block-search__button');
+    const wp_block_search__input = await waitForElement('.wp-block-search__input');
     
     wp_block_search__button.addEventListener("click", function() {
         console.log("something")
