@@ -99,6 +99,6 @@
     display: none;
 }
 
-.taxonomy-post_tag-prefix + .taxonomy-post_tag {
+.taxonomy-post_tag-prefix:has(+ .taxonomy-post_tag) {
     display: block;
 }
