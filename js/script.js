@@ -5,6 +5,7 @@ jQuery(function() {
     const wp_block_search__input = document.getElementById("wp-block-search__input");
     
     wp_block_search__button.addEventListener("click", function() {
+        console.log("something")
         if (wp_block_search__input.classList.contains("hidden")) {
             wp_block_search__input.classList.remove("hidden");
             wp_block_search__input.focus();
