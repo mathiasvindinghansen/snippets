@@ -62,16 +62,8 @@
     text-decoration: underline;
 }
 
-.search-form {
-    margin: 26px 10px;
-}
-
-.search-icon {
-    width: 20px;
-}
-
-.search-icon:hover {
-    cursor: pointer;
+.wp-block-search__inside-wrapper {
+    flex-direction: row-reverse;
 }
 
 .wp-block-search__input {
@@ -87,5 +79,7 @@
 }
 
 .wp-block-search__button {
+    margin-right: 10px;
+    margin-left: 0;
     padding: 0;
 }
