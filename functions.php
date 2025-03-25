@@ -8,17 +8,13 @@ function mvh_enqueue_styles() {
     wp_enqueue_style('mvh-module', get_template_directory_uri() . '/css/module.css?dev=' . time());
     wp_enqueue_style('mvh-state', get_template_directory_uri() . '/css/state.css?dev=' . time());
     wp_enqueue_style('mvh-theme', get_template_directory_uri() . '/css/theme.css?dev=' . time());
-
-    wp_enqueue_style('highlight-default', get_template_directory_uri() . '/libraries/highlight/styles/default.css?dev=' . time());
 }
 
 function mvh_enqueue_scripts() {
     wp_enqueue_script("jquery");
-    
+
     wp_enqueue_script('mvh-particles', get_template_directory_uri() . '/libraries/particles.min.js?dev=' . time());
     wp_enqueue_script('mvh-script', get_template_directory_uri() . '/js/script.js?dev=' . time(), ['mvh-particles']);
-
-    wp_enqueue_script('highlight-min', get_template_directory_uri() . '/libraries/highlight/highlight.min.js?dev=' . time());
 }
 
 add_action('wp_enqueue_scripts', 'mvh_enqueue_styles');
