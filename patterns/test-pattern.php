@@ -21,11 +21,9 @@
 
     <!-- wp:column -->
     <div class="wp-block-column">
-        <!-- wp:core/image -->
-        <figure class="wp-block-image">
-            <img src="" alt="">
-        </figure>
-        <!-- /wp:core/image -->
+        <!-- wp:image -->
+        <figure class="wp-block-image"><img src="" alt=""></figure>
+        <!-- /wp:image -->
     </div>
     <!-- /wp:column -->
 </div>
