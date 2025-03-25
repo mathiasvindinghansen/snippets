@@ -34,5 +34,9 @@
                 }
             ]
         }
-    }
+    },
+
+    "patterns": [
+        "mvh-test-pattern"
+    ]
 }
