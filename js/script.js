@@ -30,4 +30,6 @@ jQuery(async function() {
             wp_block_search__input.classList.add("hidden");
         }
     });
+
+    const hljs = require('../libraries/highlight/highlight.js');
 });
