@@ -6,11 +6,11 @@
 ?>
 
 <!-- wp:columns -->
-<div class="wp-block-columns">
+<div>
     <!-- wp:column -->
-    <div class="wp-block-column">
+    <div>
         <!-- wp:heading -->
-        <h1>title</h1>
+        <h2>title</h2>
         <!-- /wp:heading -->
 
         <!-- wp:paragraph -->
@@ -20,9 +20,9 @@
     <!-- /wp:column -->
 
     <!-- wp:column -->
-    <div class="wp-block-column">
+    <div>
         <!-- wp:image -->
-        <figure class="wp-block-image"><img src="" alt=""></figure>
+        <figure><img src="" alt=""></figure>
         <!-- /wp:image -->
     </div>
     <!-- /wp:column -->
