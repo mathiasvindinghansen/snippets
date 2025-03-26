@@ -33,3 +33,5 @@ jQuery(async function() {
         }
     });
 });
+
+//panda-syntax-dark

@@ -9,7 +9,7 @@ function mvh_enqueue_styles() {
     wp_enqueue_style('mvh-state', get_template_directory_uri() . '/css/state.css?dev=' . time());
     wp_enqueue_style('mvh-theme', get_template_directory_uri() . '/css/theme.css?dev=' . time());
 
-    wp_enqueue_style('mvh-highlight.js-css', 'https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/default.min.css');
+    wp_enqueue_style('mvh-highlight.js-css', 'https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/panda-syntax-dark.min.css');
 }
 
 function mvh_enqueue_scripts() {
