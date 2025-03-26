@@ -15,6 +15,8 @@ function mvh_enqueue_scripts() {
 
     wp_enqueue_script('mvh-particles', get_template_directory_uri() . '/libraries/particles.min.js?dev=' . time());
     wp_enqueue_script('mvh-script', get_template_directory_uri() . '/js/script.js?dev=' . time(), ['mvh-particles']);
+
+    wp_enqueue_script('highlight-js', get_template_directory_uri() . '/libraries/highlight/highlight.min.js?dev=' . time());
 }
 
 add_action('wp_enqueue_scripts', 'mvh_enqueue_styles');
