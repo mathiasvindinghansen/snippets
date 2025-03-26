@@ -21,8 +21,6 @@ function waitForElement(selector) {
 jQuery(async function() {
     const wp_block_search__button = await waitForElement('.wp-block-search__button');
     const wp_block_search__input = await waitForElement('.wp-block-search__input');
-    
-    hljs.highlightAll();
 
     wp_block_search__button.addEventListener("click", function() {
         if (wp_block_search__input.classList.contains("hidden")) {
